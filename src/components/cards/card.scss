@@ -1,0 +1,126 @@
+.navLink {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #9b9b9b;
+  text-decoration: none;
+}
+.active-navlink {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 30px;
+  text-decoration: none;
+  color: #4e72ca;
+}
+.navlink-span {
+  margin: 0 auto;
+  padding: 0;
+  width: 127px;
+  margin-top: 15px;
+  height: 3px;
+  background: #4e72ca;
+}
+.card-line {
+  margin: 0;
+  padding: 0;
+  margin-top: -2px;
+  display: flex;
+  width: 100%;
+  height: 3px;
+  background: #d5d5d5;
+}
+.card-list {
+  margin: 0;
+  padding: 0;
+  margin-top: 13px;
+  margin-bottom: 27px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  // justify-content: space-between;
+  gap: 25px 73px;
+}
+.card-item {
+  margin: 0;
+  padding: 0;
+  width: 265px;
+
+  // &:hover {
+  //   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  // }
+  // &:nth-child(even) {
+  //   margin-left: 60px;
+  // }
+}
+.card-title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.card-span {
+  margin: 0;
+  padding: 0;
+  margin-left: 5px;
+  margin-bottom: 4px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #4a4a4a;
+}
+.card-money {
+  margin: 0;
+  padding: 0;
+  margin-left: 5px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+.card-img {
+  display: flex;
+  margin: 0 auto;
+  width: 262px;
+  height: 190px;
+  margin-bottom: 11px;
+}
+.card-bottom-line {
+  margin-bottom: 18px;
+  display: flex;
+  width: 100%;
+  height: 2px;
+  background: rgba(182, 202, 251, 0.606827);
+}
+.card-bottom-btn {
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+  padding-right: 20px;
+  border: none;
+  background: transparent;
+  font-size: 15px;
+  line-height: 18px;
+  color: #4e72ca;
+  background-image: url(../../assets/images/ollicon.svg);
+  background-repeat: no-repeat;
+  background-position: top 7px right;
+}
+.card-link {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}

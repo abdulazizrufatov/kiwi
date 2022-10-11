@@ -1,0 +1,171 @@
+.acaunt-name {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  color: #414d6a;
+}
+.acaunt-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.acaunt-header-desc {
+  margin: 0;
+  margin-right: 26px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  color: #304fff;
+}
+.acaunt-header-btn {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #41d481;
+  border-radius: 100px 5px 5px 100px;
+}
+.acaunt-header-span {
+  margin-right: 14px;
+  margin-left: -7px;
+  padding: 6px 13px;
+  border-radius: 100px;
+  background: #41d481;
+  color: #000000;
+}
+.acaunt-navlink {
+  border: none;
+  background: transparent;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  color: #304fff;
+}
+.navLink-acaunt {
+  border: none;
+  background: transparent;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  color: #414d6a;
+}
+.navlink-span-acaunt {
+  margin: 0 auto;
+  margin-top: 15px;
+  height: 3px;
+  width: 62px;
+  background: #4e72ca;
+}
+.acaunt-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.acaunt-item {
+  margin: 0;
+  padding: 23px 16px 8px 17px;
+  background: #ffffff;
+}
+.acaunt-item-title {
+  margin: 0;
+  padding: 0;
+  margin-left: 16px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+
+  color: #414d6a;
+}
+.acaunt-item-desc {
+  margin: 0;
+  padding: 0;
+  margin-left: 60px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #414d6a;
+}
+.oshirish-btn {
+  padding: 7px 20px 8px 47px;
+  margin-left: 22px;
+  border: none;
+  background: #ffffff;
+  border: 1px solid #41d481;
+  border-radius: 100px 5px 5px 100px;
+  background-image: url(../../assets/images/strelka.png);
+  background-repeat: no-repeat;
+  background-position: left -1px top -1px;
+  background-size: 35px 37px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000;
+}
+.reklama-btn {
+  padding: 7px 20px 8px 47px;
+  margin-left: 22px;
+  border: none;
+  background: #ffffff;
+  border: 1px solid #304fff;
+  border-radius: 100px 5px 5px 100px;
+  background-image: url(../../assets/images/reklama.png);
+  background-repeat: no-repeat;
+  background-position: left -1px top -1px;
+  background-size: 35px 37px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000;
+}
+.acaunt-item-span {
+  margin-left: -17px;
+  margin-top: 15px;
+  margin-bottom: 8px;
+  display: flex;
+  height: 3px;
+  width: 1280px;
+  background: rgba(151, 151, 151, 0.246886);
+}
+.acaunt-item-bottom-box {
+  width: 422px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.acaunt-item-bottom {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #414d6a;
+}
+.acaunt-item-bottom-span {
+  margin: 0;
+  padding: 0;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #304fff;
+}
+.line {
+  margin-top: 16px;
+  margin-bottom: 15px;
+  display: flex;
+  width: 100%;
+  height: 3px;
+
+  background: rgba(151, 151, 151, 0.246886);
+}
