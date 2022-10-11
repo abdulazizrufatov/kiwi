@@ -1,4 +1,4 @@
-import { useContext, useRef, useState } from "react";
+import { useContext, useRef } from "react";
 import { Header } from "../../components/header/header";
 import { LangContext } from "../../context/langContext";
 import { Lang } from "../../languages/language";
