@@ -35,40 +35,40 @@ export const Home = () => {
             <button
               onClick={handleActive}
               className={
-                state == "1"
+                state === "1"
                   ? "active-navlink border-0 bg-transparent"
                   : "navLink border-0 bg-transparent"
               }
             >
               Просмотренные
             </button>
-            <span className={state == "1" ? "navlink-span" : "mt-1"}></span>
+            <span className={state === "1" ? "navlink-span" : "mt-1"}></span>
           </div>
           <div className=" d-flex flex-column">
             <button
               onClick={handleClick}
               className={
-                state == "2"
+                state === "2"
                   ? "active-navlink border-0 bg-transparent"
                   : "navLink border-0 bg-transparent"
               }
             >
               Выбор редакции
             </button>
-            <span className={state == "2" ? "navlink-span" : "mt-1"}></span>
+            <span className={state === "2" ? "navlink-span" : "mt-1"}></span>
           </div>
           <div className=" d-flex flex-column">
             <button
               onClick={handleChacked}
               className={
-                state == "3"
+                state === "3"
                   ? "active-navlink border-0 bg-transparent"
                   : "navLink border-0 bg-transparent"
               }
             >
               Сниженные цены
             </button>
-            <span className={state == "3" ? "navlink-span" : "mt-1"}></span>
+            <span className={state === "3" ? "navlink-span" : "mt-1"}></span>
           </div>
         </div>
         <span className="card-line"></span>
@@ -111,10 +111,10 @@ export const Home = () => {
         ) : (
           <h2>Loading...</h2>
         )}
-        <span className={all == false ? "card-bottom-line" : "d-none"}></span>
+        <span className={all === false ? "card-bottom-line" : "d-none"}></span>
         <button
           onClick={handleBtnClick}
-          className={all == false ? "card-bottom-btn" : "d-none"}
+          className={all === false ? "card-bottom-btn" : "d-none"}
         >
           Покозать еще
         </button>

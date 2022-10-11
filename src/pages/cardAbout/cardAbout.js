@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useContext, useEffect, useState } from "react";
-import { useNavigate, useParams, Link } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import { Footer } from "../../components/footer/footer";
 import { Header } from "../../components/header/header";
 import { LangContext } from "../../context/langContext";
@@ -15,7 +15,6 @@ export const CardAbout = () => {
   });
   const [aboutSpan, setAboutSpan] = useState(true);
   const param = useParams();
-  const navigate = useNavigate();
   const { lang, token, datas } = useContext(LangContext);
   useEffect(() => {
     axios
@@ -156,7 +155,7 @@ export const CardAbout = () => {
             <button
               onClick={handleActive}
               className={
-                aboutSpan == true
+                aboutSpan === true
                   ? "active-navlink border-0 bg-transparent"
                   : "navLink border-0 bg-transparent"
               }
@@ -169,7 +168,7 @@ export const CardAbout = () => {
             <button
               onClick={handleSpan}
               className={
-                aboutSpan == false
+                aboutSpan === false
                   ? "active-navlink border-0 bg-transparent"
                   : "navLink border-0 bg-transparent"
               }
@@ -177,7 +176,7 @@ export const CardAbout = () => {
               Обьявление автора
             </button>
             <span
-              className={aboutSpan == false ? "navlink-span" : "mt-1"}
+              className={aboutSpan === false ? "navlink-span" : "mt-1"}
             ></span>
           </div>
         </div>
@@ -190,7 +189,7 @@ export const CardAbout = () => {
                 <img
                   className="card-img"
                   src={e.image}
-                  alt="image"
+                  alt="images"
                   width="162"
                   height="190"
                 />

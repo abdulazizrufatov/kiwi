@@ -1,5 +1,5 @@
 import { UploadImg } from "../../components/uploadImg/uploadImg";
-import React, { Component, useRef } from "react";
+import React, { useRef } from "react";
 import "./addcard.scss";
 export const AddCard = () => {
   const RegionRef = useRef(null);
@@ -405,6 +405,7 @@ export const AddCard = () => {
               height="376"
               //   allowfullscreen="true"
               style={{ position: "relative" }}
+              title="iframe"
             ></iframe>
           </div>
           <form onSubmit={handleSubmit} className=" mt-3">

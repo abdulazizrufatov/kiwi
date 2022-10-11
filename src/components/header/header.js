@@ -63,7 +63,7 @@ export const Header = ({ children }) => {
               ref={ruBtnRef}
               value="rus"
               className={
-                lang == "rus" ? "language-btn active-language" : "language-btn"
+                lang === "rus" ? "language-btn active-language" : "language-btn"
               }
             >
               Рус
@@ -73,7 +73,7 @@ export const Header = ({ children }) => {
               onClick={habdleuzClick}
               ref={uzBtnRef}
               className={
-                lang == "uz" ? "language-btn active-language" : "language-btn"
+                lang === "uz" ? "language-btn active-language" : "language-btn"
               }
               value="uz"
             >

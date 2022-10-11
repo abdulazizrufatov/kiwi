@@ -129,7 +129,7 @@ export const NavBar = () => {
         <div className=" d-flex flex-column">
           <button
             onClick={handleActive}
-            className={span == true ? "active-navlink" : "navLink"}
+            className={span === true ? "active-navlink" : "navLink"}
             href="#"
           >
             {Lang[lang].card.yangiElonlar}
@@ -139,12 +139,12 @@ export const NavBar = () => {
         <div className=" d-flex flex-column">
           <button
             onClick={handleClick}
-            className={span == false ? "active-navlink " : "navLink"}
+            className={span === false ? "active-navlink " : "navLink"}
             href="#"
           >
             {Lang[lang].card.taklif}
           </button>
-          <span className={span == false ? "navlink-span" : "mt-1"}></span>
+          <span className={span === false ? "navlink-span" : "mt-1"}></span>
         </div>
       </div>
       <span className="card-line"></span>

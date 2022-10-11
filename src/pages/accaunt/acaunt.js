@@ -92,7 +92,7 @@ export const Acaunt = () => {
               <button
                 onClick={handleActive}
                 className={
-                  state == "1"
+                  state === "1"
                     ? "acaunt-navlink border-0 bg-transparent"
                     : "navLink-acaunt border-0 bg-transparent"
                 }
@@ -100,14 +100,14 @@ export const Acaunt = () => {
                 Просмотренные
               </button>
               <span
-                className={state == "1" ? "navlink-span-acaunt" : "mt-1"}
+                className={state === "1" ? "navlink-span-acaunt" : "mt-1"}
               ></span>
             </div>
             <div className=" d-flex flex-column">
               <button
                 onClick={handleBtn}
                 className={
-                  state == "2"
+                  state === "2"
                     ? "acaunt-navlink border-0 bg-transparent"
                     : "navLink-acaunt border-0 bg-transparent"
                 }
@@ -115,7 +115,7 @@ export const Acaunt = () => {
                 Выбор редакции
               </button>
               <span
-                className={state == "2" ? "navlink-span-acaunt" : "mt-1"}
+                className={state === "2" ? "navlink-span-acaunt" : "mt-1"}
               ></span>
             </div>
             <div className=" d-flex flex-column">
@@ -130,7 +130,7 @@ export const Acaunt = () => {
                 Сниженные цены
               </button>
               <span
-                className={state == "3" ? "navlink-span-acaunt" : "mt-1"}
+                className={state === "3" ? "navlink-span-acaunt" : "mt-1"}
               ></span>
             </div>
             <div className=" d-flex flex-column">
@@ -147,7 +147,7 @@ export const Acaunt = () => {
                 Сниженные цены
               </button>
               <span
-                className={state == "4" ? "navlink-span-acaunt" : "mt-1"}
+                className={state === "4" ? "navlink-span-acaunt" : "mt-1"}
               ></span>
             </div>
             <div className=" d-flex flex-column">
@@ -164,7 +164,7 @@ export const Acaunt = () => {
                 Сниженные цены
               </button>
               <span
-                className={state == "5" ? "navlink-span-acaunt" : "mt-1"}
+                className={state === "5" ? "navlink-span-acaunt" : "mt-1"}
               ></span>
             </div>
           </div>
@@ -179,7 +179,7 @@ export const Acaunt = () => {
         }}
       >
         <div className="container">
-          {state == "1" || state == "2" || state == "3" || state == "5" ? (
+          {state === "1" || state === "2" || state === "3" || state === "5" ? (
             <ul className="acaunt-list">
               <li className="acaunt-item">
                 <div className=" d-flex align-items-center justify-content-between">

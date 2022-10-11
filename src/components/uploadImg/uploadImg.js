@@ -1,6 +1,6 @@
-import { LoadingOutlined, PlusOutlined } from "@ant-design/icons";
+import { LoadingOutlined } from "@ant-design/icons";
 import { message, Upload } from "antd";
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import Photo from "../../assets/images/photoImg.svg";
 
 const getBase64 = (img, callback) => {
