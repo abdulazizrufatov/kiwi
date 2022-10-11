@@ -49,7 +49,7 @@ export const UploadImg = () => {
       {loading ? (
         <LoadingOutlined className="span" />
       ) : (
-        <img src={Photo} alt="image" />
+        <img src={Photo} alt="picture" />
       )}
     </div>
   );

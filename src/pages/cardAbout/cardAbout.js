@@ -109,7 +109,7 @@ export const CardAbout = () => {
               <img
                 className="about-img"
                 src={about.data.image}
-                alt="image"
+                alt="picture"
                 width="553"
                 height="457"
               />

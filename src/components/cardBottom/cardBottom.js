@@ -9,13 +9,13 @@ export const CardBottom = () => {
         <div className="container">
           <ul className="card-bottom-list">
             <li className="card-bottom-item">
-              <img src={AppleNotebook} alt="image" width="359" height="238" />
+              <img src={AppleNotebook} alt="picture" width="359" height="238" />
             </li>
             <li className="card-bottom-item">
-              <img src={GlassImg} alt="image" width="359" height="238" />
+              <img src={GlassImg} alt="picture" width="359" height="238" />
             </li>
             <li className="card-bottom-item">
-              <img src={Ofice} alt="image" width="359" height="238" />
+              <img src={Ofice} alt="picture" width="359" height="238" />
             </li>
           </ul>
         </div>

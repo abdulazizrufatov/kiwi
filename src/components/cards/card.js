@@ -31,7 +31,7 @@ export const Card = () => {
                       <img
                         className="card-img"
                         src={e.image}
-                        alt="image"
+                        alt="picture"
                         width="162"
                         height="190"
                       />
@@ -47,7 +47,7 @@ export const Card = () => {
                       <img
                         className="card-img"
                         src={e.image}
-                        alt="image"
+                        alt="picture"
                         width="162"
                         height="190"
                       />

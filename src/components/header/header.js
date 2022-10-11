@@ -83,7 +83,7 @@ export const Header = ({ children }) => {
           {token ? (
             <Link className=" d-flex align-items-center gap-3" to="/acaunt">
               <p className=" accaunt-name">Abdulaziz</p>
-              <img src={Accaunt} alt="image" />
+              <img src={Accaunt} alt="picture" />
             </Link>
           ) : (
             <div className="register">

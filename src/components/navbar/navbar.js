@@ -37,7 +37,7 @@ export const NavBar = () => {
           <img
             className=" mx-auto d-flex"
             src={Autoimg}
-            alt="image"
+            alt="picture"
             width={75}
             height="75"
           />
@@ -47,7 +47,7 @@ export const NavBar = () => {
           <img
             className=" mx-auto d-flex"
             src={HomeImg}
-            alt="image"
+            alt="picture"
             width={75}
             height="75"
           />
@@ -57,7 +57,7 @@ export const NavBar = () => {
           <img
             className=" mx-auto d-flex"
             src={TerminalImg}
-            alt="image"
+            alt="picture"
             width={75}
             height="75"
           />
@@ -67,7 +67,7 @@ export const NavBar = () => {
           <img
             className=" mx-auto d-flex"
             src={Rabota}
-            alt="image"
+            alt="picture"
             width={75}
             height="75"
           />
@@ -77,7 +77,7 @@ export const NavBar = () => {
           <img
             className=" mx-auto d-flex"
             src={GifImg}
-            alt="image"
+            alt="picture"
             width={75}
             height="75"
           />
@@ -87,7 +87,7 @@ export const NavBar = () => {
           <img
             className=" mx-auto d-flex"
             src={SadImg}
-            alt="image"
+            alt="picture"
             width={75}
             height="75"
           />
@@ -97,7 +97,7 @@ export const NavBar = () => {
           <img
             className=" mx-auto d-flex"
             src={BuildImg}
-            alt="image"
+            alt="picture"
             width={75}
             height="75"
           />
@@ -107,7 +107,7 @@ export const NavBar = () => {
           <img
             className=" mx-auto d-flex"
             src={SportImg}
-            alt="image"
+            alt="picture"
             width={75}
             height="75"
           />
@@ -117,7 +117,7 @@ export const NavBar = () => {
           <img
             className=" mx-auto d-flex"
             src={Business}
-            alt="image"
+            alt="picture"
             width={75}
             height="75"
           />

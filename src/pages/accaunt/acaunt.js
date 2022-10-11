@@ -122,7 +122,7 @@ export const Acaunt = () => {
               <button
                 onClick={handleChacked}
                 className={
-                  state == "3"
+                  state === "3"
                     ? "acaunt-navlink border-0 bg-transparent"
                     : "navLink-acaunt border-0 bg-transparent"
                 }
@@ -139,7 +139,7 @@ export const Acaunt = () => {
                   setState("4");
                 }}
                 className={
-                  state == "4"
+                  state === "4"
                     ? "acaunt-navlink border-0 bg-transparent"
                     : "navLink-acaunt border-0 bg-transparent"
                 }
@@ -156,7 +156,7 @@ export const Acaunt = () => {
                   setState("5");
                 }}
                 className={
-                  state == "5"
+                  state === "5"
                     ? "acaunt-navlink border-0 bg-transparent"
                     : "navLink-acaunt border-0 bg-transparent"
                 }
@@ -183,7 +183,7 @@ export const Acaunt = () => {
             <ul className="acaunt-list">
               <li className="acaunt-item">
                 <div className=" d-flex align-items-center justify-content-between">
-                  <img src={AcauntJpeg} alt="image" />
+                  <img src={AcauntJpeg} alt="picture" />
                   <h3 className="acaunt-item-title">
                     Срочно нужен программист yii2
                   </h3>
@@ -197,7 +197,7 @@ export const Acaunt = () => {
                   </p>
                   <button className="oshirish-btn">Поднять</button>
                   <button className="reklama-btn">Рекламировать</button>
-                  <img src={AcauntItemIcon} alt="image" />
+                  <img src={AcauntItemIcon} alt="picture" />
                 </div>
                 <span className="acaunt-item-span"></span>
                 <div className="acaunt-item-bottom-box">
@@ -209,7 +209,7 @@ export const Acaunt = () => {
               </li>
               <li className="acaunt-item">
                 <div className=" d-flex align-items-center justify-content-between">
-                  <img src={AcauntJpeg} alt="image" />
+                  <img src={AcauntJpeg} alt="picture" />
                   <h3 className="acaunt-item-title">
                     Срочно нужен программист yii2
                   </h3>
@@ -223,7 +223,7 @@ export const Acaunt = () => {
                   </p>
                   <button className="oshirish-btn">Поднять</button>
                   <button className="reklama-btn">Рекламировать</button>
-                  <img src={AcauntItemIcon} alt="image" />
+                  <img src={AcauntItemIcon} alt="picture" />
                 </div>
                 <span className="acaunt-item-span"></span>
                 <div className="acaunt-item-bottom-box">
@@ -235,7 +235,7 @@ export const Acaunt = () => {
               </li>
               <li className="acaunt-item">
                 <div className=" d-flex align-items-center justify-content-between">
-                  <img src={AcauntJpeg} alt="image" />
+                  <img src={AcauntJpeg} alt="picture" />
                   <h3 className="acaunt-item-title">
                     Срочно нужен программист yii2
                   </h3>
@@ -249,7 +249,7 @@ export const Acaunt = () => {
                   </p>
                   <button className="oshirish-btn">Поднять</button>
                   <button className="reklama-btn">Рекламировать</button>
-                  <img src={AcauntItemIcon} alt="image" />
+                  <img src={AcauntItemIcon} alt="picture" />
                 </div>
                 <span className="acaunt-item-span"></span>
                 <div className="acaunt-item-bottom-box">
@@ -261,7 +261,7 @@ export const Acaunt = () => {
               </li>
               <li className="acaunt-item">
                 <div className=" d-flex align-items-center justify-content-between">
-                  <img src={AcauntJpeg} alt="image" />
+                  <img src={AcauntJpeg} alt="picture" />
                   <h3 className="acaunt-item-title">
                     Срочно нужен программист yii2
                   </h3>
@@ -275,7 +275,7 @@ export const Acaunt = () => {
                   </p>
                   <button className="oshirish-btn">Поднять</button>
                   <button className="reklama-btn">Рекламировать</button>
-                  <img src={AcauntItemIcon} alt="image" />
+                  <img src={AcauntItemIcon} alt="picture" />
                 </div>
                 <span className="acaunt-item-span"></span>
                 <div className="acaunt-item-bottom-box">
@@ -287,7 +287,7 @@ export const Acaunt = () => {
               </li>
               <li className="acaunt-item">
                 <div className=" d-flex align-items-center justify-content-between">
-                  <img src={AcauntJpeg} alt="image" />
+                  <img src={AcauntJpeg} alt="picture" />
                   <h3 className="acaunt-item-title">
                     Срочно нужен программист yii2
                   </h3>
@@ -301,7 +301,7 @@ export const Acaunt = () => {
                   </p>
                   <button className="oshirish-btn">Поднять</button>
                   <button className="reklama-btn">Рекламировать</button>
-                  <img src={AcauntItemIcon} alt="image" />
+                  <img src={AcauntItemIcon} alt="picture" />
                 </div>
                 <span className="acaunt-item-span"></span>
                 <div className="acaunt-item-bottom-box">

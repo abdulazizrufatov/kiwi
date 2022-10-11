@@ -74,14 +74,14 @@ export const Home = () => {
         <span className="card-line"></span>
         {datas.length ? (
           <ul className="card-list">
-            {all == false
+            {all === false
               ? datas.slice(0, 4).map((e) => (
                   <li className="card-item" key={e.id}>
                     <Link className="card-link" to={`/about/${e.id}`}>
                       <img
                         className="card-img"
                         src={e.image}
-                        alt="image"
+                        alt="picture"
                         width="162"
                         height="190"
                       />
@@ -97,7 +97,7 @@ export const Home = () => {
                       <img
                         className="card-img"
                         src={e.image}
-                        alt="image"
+                        alt="picture"
                         width="162"
                         height="190"
                       />

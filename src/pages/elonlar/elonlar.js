@@ -131,7 +131,7 @@ export const Elonlar = () => {
           >
             Вы сейчас в рубрике
           </p>
-          <img src={SelectBtn} alt="image" />
+          <img src={SelectBtn} alt="picture" />
         </div>
         <div className=" d-flex align-items-center mt-4">
           <p
@@ -142,7 +142,7 @@ export const Elonlar = () => {
           >
             Выберите цену от и до
           </p>
-          <img src={lineImg} alt="image" />
+          <img src={lineImg} alt="picture" />
         </div>
         <div className=" mt-4 d-flex align-items-center">
           <select
@@ -229,7 +229,7 @@ export const Elonlar = () => {
               <img
                 className="card-img"
                 src={e.image}
-                alt="image"
+                alt="picture"
                 width="162"
                 height="190"
               />
