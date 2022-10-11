@@ -1,5 +1,4 @@
 import "./App.css";
-import { Header } from "./components/header/header";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { Route, Routes } from "react-router-dom";
 import { Login } from "./pages/login/login";

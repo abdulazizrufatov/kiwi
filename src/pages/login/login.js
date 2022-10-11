@@ -131,7 +131,7 @@ export const Login = () => {
           </div>
           <p className="login-stop">{Lang[lang].Login.parolTiklash}</p>
         </div>
-        <img src={LoginSvg} alt="image" width={654} height={952} />
+        <img src={LoginSvg} alt="image" width="654" height="952" />
       </div>
     </div>
   );

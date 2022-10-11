@@ -24,7 +24,7 @@ export const Card = () => {
       <div className="container mb-5">
         {datas.length ? (
           <ul className="card-list">
-            {allData == false
+            {allData === false
               ? datas.slice(0, 12).map((e) => (
                   <li className="card-item" key={e.id}>
                     <Link className="card-link" to={`/about/${e.id}`}>
@@ -62,11 +62,11 @@ export const Card = () => {
           <h2>Loading...</h2>
         )}
         <span
-          className={allData == false ? "card-bottom-line" : "d-none"}
+          className={allData === false ? "card-bottom-line" : "d-none"}
         ></span>
         <button
           onClick={handleBtnClick}
-          className={allData == false ? "card-bottom-btn" : "d-none"}
+          className={allData === false ? "card-bottom-btn" : "d-none"}
         >
           Покозать еще
         </button>
